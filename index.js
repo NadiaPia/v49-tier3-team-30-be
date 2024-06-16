@@ -31,7 +31,8 @@ const corsOptions = {
 	credentials: true,
 	origin: [
         // "http://localhost:5173"
-		"roadmap.up.railway.app"
+		"roadmap.up.railway.app",
+		"https://roadmap-v49.netlify.app/",
     ],
     methods: ["GET", "POST", "PUT", "DELETE"],
 };

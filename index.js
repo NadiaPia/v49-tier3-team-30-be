@@ -30,7 +30,8 @@ const corsOptions = {
 	origin: process.env.CLIENT_SIDE,
 	credentials: true,
 	origin: [
-        "http://localhost:5173"
+        // "http://localhost:5173"
+		"roadmap.up.railway.app"
     ],
     methods: ["GET", "POST", "PUT", "DELETE"],
 };
